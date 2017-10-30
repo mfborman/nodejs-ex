@@ -18,7 +18,7 @@ spec:
         kind: ImageStreamTag
         name: {{ print .Values.name ":latest" | quote }}
   - type: ConfigChange
-  replicas: 1
+  replicas: 6
   selector:
     name: {{ .Values.name | quote }}
   template:
