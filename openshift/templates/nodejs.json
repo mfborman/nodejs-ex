@@ -150,7 +150,11 @@
       },
       "spec": {
         "strategy": {
-          "type": "Rolling"
+          "type": "Rolling",
+          "rollingParams": {
+            "maxSurge": 0,
+            "maxUnavailable": 1
+          }
         },
         "triggers": [
           {
