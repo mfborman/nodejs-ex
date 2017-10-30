@@ -214,7 +214,7 @@ Then check `oc status` to see that an updated deployment has been kicked off:
 	    deployment #2 deployed about a minute ago - 1 pod
 	    deployment #1 deployed 2 hours ago
 
-#### Success
+#### Success 
 
 You should now have a Node.js welcome page showing the current hit count, as stored in a MongoDB database.
 
