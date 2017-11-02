@@ -3,7 +3,7 @@ name: nodejs-example
 # Namespace: The OpenShift Namespace where the ImageStream resides.
 namespace: openshift
 # Memory Limit: Maximum amount of memory the container can use.
-memory_limit: 512Mi
+memory_limit: 256Mi
 # Git Repository URL: The URL of the repository with your application source code.
 source_repository_url: https://github.com/openshift/nodejs-ex.git
 # Git Reference: Set this to a branch name, tag or other ref of your repository if you are not using the default branch.
